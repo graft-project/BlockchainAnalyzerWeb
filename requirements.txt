@@ -1,3 +1,4 @@
 -r DAAAnalysis/requirements.txt
-Creoleparser
-Flask
+Creoleparser==0.7.4
+Flask==0.12.2
+Pygments==2.2.0

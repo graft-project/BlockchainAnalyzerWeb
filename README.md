@@ -12,6 +12,13 @@ git clone --recursive https://github.com/graft-project/BlockchainAnalyzerWeb.git
 ### Installation
 
 ```bash
+sudo apt-get update
+sudo apt-get install git python-pip gnuplot
+```
+
+Install Gnuplot.py from here: http://gnuplot-py.sourceforge.net/ #TODO: Add good instruction
+
+```bash
 pip install -r requirements.txt
 ```
 
