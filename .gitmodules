@@ -1,0 +1,3 @@
+[submodule "DAAAnalysis"]
+	path = DAAAnalysis
+	url = https://github.com/graft-project/BlockchainAnalyzer.git
