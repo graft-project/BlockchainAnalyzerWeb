@@ -1,2 +1,3 @@
+-r DAAAnalysis/requirements.txt
 Creoleparser
 Flask
