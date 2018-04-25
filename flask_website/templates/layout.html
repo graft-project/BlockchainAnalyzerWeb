@@ -1,0 +1,18 @@
+<!doctype html>
+{% block head %}
+<title>{% block title %}Graft Network{% endblock %} | Blockchain Analyzer</title>
+<meta charset=utf-8>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<script type=text/javascript
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+{% endblock %}
+<div class=box>
+  {% block body_title %}
+    <h1><span>{{ self.title() }}</span></h1>
+  {% endblock %}
+  {% block body %}{% endblock %}
+  <p class=footer>
+    &copy; Copyright {{ current_year }} by <a href="https://www.graft.network/">Graft Network</a><br/>
+    <a href="http://flask.pocoo.org/"><img src="{{ url_for('static', filename='badges/powered-by-flask-s.png') }}" height="16" /></a>
+</div>
