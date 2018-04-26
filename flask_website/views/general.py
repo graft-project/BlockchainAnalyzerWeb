@@ -50,7 +50,7 @@ def difficulty_chart():
 
 
 def blockchain_height():
-    height = get_mainnet_blockchain_height()
+    height = get_mainnet_blockchain_height() - 1
     return height
 
 
